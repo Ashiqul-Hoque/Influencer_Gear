@@ -8,9 +8,45 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 25px;
+}
+/* --------Top Section----------- */
+.top-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.button {
+}
+.top-right img {
+  height: 414px;
+  width: 440px;
+}
+
+/* ------Collection Section------ */
+.collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.rating {
+  display: flex;
+}
+/* ------Footer Section------ */
+.footer {
+  background-color: rgb(10, 8, 38);
+  color: white;
+  height: 150px;
 }
