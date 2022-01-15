@@ -32,6 +32,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 50px;
+  border-bottom: 1px solid gray;
 }
 .intro-text {
   font-size: 35px;
