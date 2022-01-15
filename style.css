@@ -252,3 +252,19 @@ nav {
 .footer {
   width: auto;
 }
+
+/* Tablet Devices */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+  }
+  .top-left {
+    padding-left: 20px;
+  }
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+  }
+}
