@@ -39,45 +39,45 @@ nav {
   top: 0;
   left: 0;
   color: rgb(224, 44, 109);
-  animation: typing 3s linear infinite;
+  animation: typing 4s linear infinite;
 }
 @keyframes typing {
   0% {
     content: "|";
   }
-  8% {
+  7% {
     content: "I|";
   }
-  16% {
+  14% {
     content: "In|";
   }
-  24% {
+  21% {
     content: "Inf|";
   }
-  32% {
+  28% {
     content: "Infl|";
   }
-  40% {
+  35% {
     content: "Influ|";
   }
-  48% {
+  42% {
     content: "Influe|";
   }
-  56% {
+  49% {
     content: "Influen|";
   }
-  64% {
+  56% {
     content: "Influenc|";
   }
-  72% {
+  63% {
     content: "Influence|";
   }
-  80% {
+  70% {
     content: "Influencer|";
   }
-  84%,
+  80%,
   88% {
-    content: "Influence|";
+    content: "Influencer|";
   }
   89% {
     content: "Influenc|";
