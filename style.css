@@ -18,16 +18,27 @@ nav {
   margin: 0 auto;
   padding: 0 15px;
 }
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
 /* --------Top Section----------- */
 .top-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-bottom: 50px;
 }
 .top-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-right: 50px;
+}
+.text {
+  padding: 20px 0;
+  font-size: 15px;
 }
 .button {
   background-color: rgb(224, 44, 109);
@@ -42,6 +53,9 @@ nav {
 }
 
 /* ------Collection Section------ */
+.collection-section {
+  margin: 50px 0;
+}
 .cart {
   box-shadow: 0px 0px 20px gray;
   padding: 20px;
@@ -55,8 +69,27 @@ nav {
 .rating {
   display: flex;
 }
-
+.p-rat {
+  padding-left: 10px;
+}
+.fa-star.fill {
+  color: goldenrod;
+}
+.fa-star.empty {
+  color: gray;
+}
+.more {
+  text-decoration: none;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 /* ------Accessories Section------ */
+.accessories-section {
+  margin: 50px 0;
+  padding-top: 50px;
+}
 .cart img {
   height: 254px;
   width: 100%;
