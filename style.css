@@ -42,13 +42,26 @@ nav {
 }
 
 /* ------Collection Section------ */
+.cart {
+  box-shadow: 0px 0px 20px gray;
+  padding: 20px;
+  justify-content: center;
+}
 .collection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 35px;
 }
 .rating {
   display: flex;
 }
+
+/* ------Accessories Section------ */
+.cart img {
+  height: 254px;
+  width: 100%;
+}
+
 /* ------Footer Section------ */
 .footer {
   background-color: rgb(10, 8, 38);
