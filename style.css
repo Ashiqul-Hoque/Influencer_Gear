@@ -29,6 +29,9 @@ nav {
   grid-template-columns: 1fr 1fr;
   padding-bottom: 50px;
 }
+.intro-text {
+  font-size: 22px;
+}
 .anim-text {
   color: transparent;
   position: relative;
