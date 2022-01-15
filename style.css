@@ -215,8 +215,11 @@ nav {
 }
 .fab {
   padding: 2px 7px;
+  color: rgb(224, 44, 109);
 }
-
+.footer a {
+  text-decoration: none;
+}
 /* -----------------------
 ----responsive screens ---
 -------------------------*/
