@@ -29,6 +29,88 @@ nav {
   grid-template-columns: 1fr 1fr;
   padding-bottom: 50px;
 }
+.anim-text {
+  color: transparent;
+  position: relative;
+}
+.anim-text::before {
+  content: "Influencer";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(224, 44, 109);
+  animation: typing 3s linear infinite;
+}
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+  8% {
+    content: "I|";
+  }
+  16% {
+    content: "In|";
+  }
+  24% {
+    content: "Inf|";
+  }
+  32% {
+    content: "Infl|";
+  }
+  40% {
+    content: "Influ|";
+  }
+  48% {
+    content: "Influe|";
+  }
+  56% {
+    content: "Influen|";
+  }
+  64% {
+    content: "Influenc|";
+  }
+  72% {
+    content: "Influence|";
+  }
+  80% {
+    content: "Influencer|";
+  }
+  84%,
+  88% {
+    content: "Influence|";
+  }
+  89% {
+    content: "Influenc|";
+  }
+  90% {
+    content: "Influen|";
+  }
+  91% {
+    content: "Influe|";
+  }
+  92% {
+    content: "Influ|";
+  }
+  93% {
+    content: "Infl|";
+  }
+  94% {
+    content: "Inf|";
+  }
+  95% {
+    content: "In|";
+  }
+  96% {
+    content: "I|";
+  }
+  97% {
+    content: "|";
+  }
+  100% {
+    content: "|";
+  }
+}
+
 .top-left {
   display: flex;
   flex-direction: column;
@@ -37,15 +119,17 @@ nav {
   padding-right: 50px;
 }
 .text {
-  padding: 20px 0;
+  padding: 15px 0;
   font-size: 15px;
 }
 .button {
   background-color: rgb(224, 44, 109);
   color: white;
+  margin-top: 5px;
   padding: 10px 20px;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
 }
 .top-right img {
   height: 414px;
@@ -60,6 +144,7 @@ nav {
   box-shadow: 0px 0px 20px gray;
   padding: 20px;
   justify-content: center;
+  border-radius: 5px;
 }
 .collection {
   display: grid;
