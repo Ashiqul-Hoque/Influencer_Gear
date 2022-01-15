@@ -34,7 +34,9 @@ nav {
   padding-bottom: 50px;
 }
 .intro-text {
-  font-size: 22px;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
 }
 .anim-text {
   color: transparent;
