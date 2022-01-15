@@ -100,4 +100,13 @@ nav {
   background-color: rgb(10, 8, 38);
   color: white;
   height: 120px;
+  padding: 20px 0;
+  text-align: center;
+}
+.foot-text1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.foot-text2 {
+  font-size: 10px;
 }
