@@ -203,7 +203,6 @@ nav {
 .footer {
   background-color: rgb(10, 8, 38);
   color: white;
-  height: 120px;
   padding: 20px 0;
   text-align: center;
 }
@@ -264,17 +263,22 @@ nav {
     grid-template-columns: 1fr;
     grid-gap: 35px;
   }
+  .cart {
+    text-align: center;
+  }
+  .rating {
+    justify-content: center;
+  }
+  .footer {
+    width: auto;
+  }
+  .foot-text1 {
+    font-size: 22px;
+  }
+  .foot-text2 {
+    font-size: 16px;
+  }
 }
-.cart {
-  text-align: center;
-}
-.rating {
-  justify-content: center;
-}
-.footer {
-  width: auto;
-}
-
 /* Tablet Devices */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
   .collection {
@@ -288,5 +292,11 @@ nav {
   .intro-text {
     display: flex;
     flex-direction: column;
+  }
+  .foot-text1 {
+    font-size: 25px;
+  }
+  .foot-text2 {
+    font-size: 18px;
   }
 }
